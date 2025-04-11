@@ -10,8 +10,12 @@ body {
     color: #333;
 }
 
-
-
+header{
+    background-image: url(/imagen/Imagenes_profe/fondo.jpg);
+    background-size: cover;
+    background: center;
+    background-repeat: no-repeat;
+}
 .hero {
     background-color: #e6d4c3;
     display: flex;
@@ -66,8 +70,8 @@ body {
         align-items: center;
         justify-content: space-between;
         padding: 50px 80px;
-        width: 100%; /* Extender el encabezado por todo el ancho */
-        height: 400px; /* Aumentar la altura del encabezado */
+        width: 100%; 
+        height: 400px; 
     }
     .hero h1 {
         font-size: 3.5em;
